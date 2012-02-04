@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" minWidth="955" minHeight="600">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:Label x="52" y="34" text="Welcome to the Intuitive Decision Application&#xd;&#xd;What you see is a virtual room with a lot of different items on different positions.&#xd;Choose an object and put in a broad description.&#xd;The program will interprete your input and try to find the object you have chosen."/>
+	<s:DropDownList x="52" y="149" width="148"></s:DropDownList>
+	<s:DropDownList x="208" y="149" width="145"></s:DropDownList>
+	<s:DropDownList x="361" y="149" width="147"></s:DropDownList>
+	<s:DropDownList x="516" y="149" width="153"></s:DropDownList>
+	<s:DropDownList x="122" y="178" width="169"></s:DropDownList>
+	<s:DropDownList x="433" y="178" width="162"></s:DropDownList>
+	<s:Label x="106" y="133" text="Action"/>
+	<s:Label x="259" y="133" text="Object"/>
+	<s:Label x="413" y="133" text="Relation"/>
+	<s:Label x="572" y="133" text="Object"/>
+	<s:Label x="177" y="207" text="Identifier"/>
+	<s:Label x="485" y="206" text="Identifier"/>
+	<s:Button x="728" y="159" width="110" height="35" label="&gt; Interprete"/>
+	<s:TextArea x="643" y="260" text="Output"/>
+</s:Application>
